@@ -1,0 +1,20 @@
+.App {
+  font-family: sans-serif;
+  font-size: 24px;
+  margin: 20px;
+}
+
+.picker-wrapper {
+  border: solid 2px;
+  max-width: 650px;
+}
+
+.page-title {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  width: 32px;
+  margin-right: 10px;
+}

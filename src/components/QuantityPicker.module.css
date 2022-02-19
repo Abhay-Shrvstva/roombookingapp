@@ -1,0 +1,43 @@
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 15px;
+}
+
+.row:not(:last-of-type) {
+  border-bottom: 1px solid;
+}
+
+.infoWrapper {
+  display: flex;
+  align-items: center;
+}
+
+button {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: bold;
+}
+
+.count {
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.add {
+  background-color: #e63b57;
+  color: white;
+}
+
+.remove {
+  background-color: #2d3385;
+  color: white;
+}
+
+button:disabled {
+  background-color: #a1a2a6;
+}
