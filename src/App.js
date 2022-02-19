@@ -11,7 +11,7 @@ export default function App() {
   const addRooms = () => {
     if (rooms < 5) {
       setRooms((prevState) => prevState + 1);
-      if (adults < rooms) {
+      if (adults < rooms + 1) {
         setAdults((prevState) => prevState + 1);
       }
     }
